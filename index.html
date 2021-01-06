@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div><div class="image"></div></div>
+
+    <style>
+      * {
+        user-select: none;
+      }
+      .image {
+        content: "";
+        width: 900px;
+        height: 500px;
+        background-image: url("https://images.unsplash.com/photo-1458668383970-8ddd3927deed?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=747&q=80");
+        background-size: 900px;
+        box-shadow: 0 20px 40px 4px #dbdbdb;
+        border-radius: 20px;
+        box-sizing: border-box;
+        position: absolute;
+        top: calc(50% - 250px);
+        left: calc(50% - 450px);
+        object-fit: cover;
+      }
+    </style>
+  </body>
+</html>
